@@ -3,10 +3,10 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-class ImagePainter extends CustomPainter {
+class OverlayImagePainter extends CustomPainter {
   List<Offset> points;
 
-  ImagePainter(this.points);
+  OverlayImagePainter(this.points);
 
   @override
   void paint(Canvas canvas, Size size) {
